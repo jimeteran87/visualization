@@ -10,7 +10,23 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
+      Your answer...I picked a bar chart from Tableau’s Chart Chooser as my “good” example: "https://public.tableau.com/app/profile/andy.kriebel/viz/EDVSamples/BarGraph"
+
+        Why it’s good:
+        It’s clean and super easy to read—no crazy colors, no weird 3D effects.
+        The bars all start at zero on the Y-axis, which is something we talked about in class to avoid exaggerating differences.
+        It shows the data source at the bottom, which builds trust and follows the idea of provenance rhetoric from class.
+        It’s perfect for comparing categories, which is exactly what bar charts are made for.
+        This chart just does what it’s supposed to do. It’s honest, clear, and doesn’t overload the viewer.
+
+
+        For my “bad” example, I found a dashboard on Tableau Public called “Worst Viz Ever” : https://public.tableau.com/app/profile/fiona.gordon/viz/AndyKirkCourseWorstVizEver/UgliestDashboardWorstDesign
+
+        Why I think it’s bad:
+        The dashboard uses bright, random colors that don’t follow any hierarchy or logic, which makes it hard to focus.
+        There are bubble charts all over the place, which makes it almost impossible to compare sizes or see clear patterns.
+        There’s no clear message or story. It feels like the goal was to show off as many features as possible instead of helping the viewer understand the data.
+        This design completely ignores the principles we discussed in class, like reducing cognitive load, using Gestalt principles for grouping, and aligning visuals with a clear purpose.
 
 
 
@@ -21,7 +37,9 @@
       ```
     - How could this data visualization have been improved?  
       ```
-      Your answer...
+      Your answer...For my good example, we could add labels or annotations on key bars to highlight important data points and include a small note about the data’s time frame or context for more transparency.
+
+        For the bad example, we could replace the bubble charts with bar or line charts for easier comparison. Use a consistent and limited color palette to reduce visual noise. Add titles and clear labels to guide the viewer’s understanding and include the data source to improve transparency and trust.
 
 
 
