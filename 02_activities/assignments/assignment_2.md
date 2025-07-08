@@ -39,7 +39,7 @@
       ```
       Your answer...For my good example, we could add labels or annotations on key bars to highlight important data points and include a small note about the data’s time frame or context for more transparency.
 
-        For the bad example, we could replace the bubble charts with bar or line charts for easier comparison. Use a consistent and limited color palette to reduce visual noise. Add titles and clear labels to guide the viewer’s understanding and include the data source to improve transparency and trust.
+        For the bad example, we could replace the bubble charts with bar or line charts for easier comparison. Use a consistent and limited color palette to reduce visual noise. Add titles and clear labels to guide the viewer’s understanding and include the data source to improve transparency and trust..
 
 
 
