@@ -18,6 +18,51 @@
 *	Apply general design principles to create accessible and equitable data visualizations
 * Use data visualization to tell a story
 
+# Practise from first week:
+
+import numpy as np 
+import matplotlib.pyplot as plt 
+import pandas as pd
+
+np. random. seed (613)
+x = np. arange(50)
+y = np. random. randint(0, 100,50)
+fig, ax = plt.subplots(figsize=(5,3))
+ax. scatter (x,y)
+
+
+fig, ax = plt.subplots(figsize=(5,3))
+ax. bar (x,y)
+
+
+fig, ax = plt.subplots(figsize=(5,3))
+ax. barh(x,y)
+
+fig, ax = plt.subplots(figsize=(5,3))
+ax. plot(x,y)
+
+fig, ax = plt.subplots(figsize=(5,3))
+ax.hist(y)
+
+font1 = {'family':'sans-serif', 'color':'blue', 'size':18}
+font2 = {'family':'monospace', 'color':'green', 'size':8}
+
+fig, ax = plt.subplots(figsize=(5, 3))
+ax.plot(x, y)
+
+ax.set_title('Total growth over time', fontdict=font1, loc='left')
+ax.set_ylabel('Total growth', fontdict=font2)
+ax.set_xlabel('Years since start', fontdict=font2)
+
+
+fig, ax = plt.subplots(figsize=(5, 3))
+ax.scatter(x, y, marker='*', color='indigo')
+
+ig, ax = plt.subplots(figsize=(5, 3))
+ax.plot(x, y, marker='*', color='#7425B9', linestyle = "--", linewidth = 2, markersize = 12, markeredgecolor = '#FA9359', markerfacecolor = '#000000')
+ax.grid(axis = 'y', color = 'grey', linewidth = 2)
+
+
 ### Rubric:
 
 | Component          | Scoring                 | Requirement                                              |
